@@ -9,9 +9,9 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 
 ## Run the questionnaire
 
-1. Load `src/scenarios.json` with `json.load`.
+1. Load `data/scenarios.json` with `json.load`.
 2. Create `Questionnaire(scenarios)` from `src/questionnaire.py`.
-3. Give a warm, two- to three-sentence introduction: explain the purpose, say there are no right or wrong answers, and avoid presenting it as a personality test. Refer to `src/sample_opening.md` as the opening-message template.
+3. Give a warm, two- to three-sentence introduction: explain the purpose, say there are no right or wrong answers, and avoid presenting it as a personality test. Refer to `templates/sample_opening.md` as the opening-message template.
 4. Until `questionnaire.is_complete` is true, call `next_question()` once, then display `Question {questionnaire.question_number} of {questionnaire.total_questions}` with its `text` and the rating scale below. Call `record_response(rating)` before selecting another scenario.
 5. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
 
@@ -42,7 +42,7 @@ Do not reveal scenario categories, weights, internal tracking, or scoring calcul
 
 ## Present results
 
-Use `src/sample_output.md` as the result-layout reference.
+Use `templates/sample_output.md` as the result-layout reference.
 
 Sort categories by descending score. For each category, show its label, a ten-slot bar, and its actual rounded percentage. Fill the bar with `round(percentage / 10)` `█` blocks and use `░` for the remainder.
 

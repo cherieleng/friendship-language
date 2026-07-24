@@ -4,7 +4,36 @@
 
 A friendship-preference questionnaire that explores the dynamics that make close friendships feel meaningful. It collects 1–5 ratings for 40 scenarios, calculates deterministic category scores, and presents a ranked, human-readable summary.
 
-## Categories
+## Usage Options
+
+This skill supports two execution modes.
+
+### Option 1: Agent Mode (recommended)
+
+Requires:
+- An AI agent environment that supports loading skills
+- Access to the repository files
+
+The skill uses:
+- `data/scenarios.json` as the questionnaire source
+- `src/questionnaire.py` for question selection and progress tracking
+- `src/calculator.py` for deterministic scoring
+
+The LLM handles conversation flow and result interpretation.
+
+### Option 2: Prompt Mode
+
+No installation required.
+
+Use the v1 prompt in:
+
+`archive/friendship-language-v1.md`
+
+Copy the prompt into an LLM chat and follow the questionnaire directly.
+
+This version keeps all logic inside the prompt and is intended for easy sharing and experimentation.
+
+## Result Categories
 
 - Shared Joy
 - Reliability / Showing Up
@@ -12,7 +41,6 @@ A friendship-preference questionnaire that explores the dynamics that make close
 - Practical Support
 - Being Remembered
 - Gestures
-
 
 ## Why I Built This
 
@@ -39,14 +67,25 @@ This questionnaire is an attempt to explore that idea through concrete scenarios
 ```text
 friendship-language/
 ├── README.md
-└── src/
-    ├── scenarios.json
-    ├── calculator.py
-    ├── questionnaire.py
-    └── sample_output.md
+├── SKILL.md
+├── data/
+│   └── scenarios.json
+├── src/
+│   ├── questionnaire.py
+│   └── calculator.py
+│   └── categories.py
+├── templates/
+│   ├── sample_opening.md
+│   └── sample_output.md
+├── tests/
+│   ├── test_questionnaire.py
+│   └── test_calculator.py
+│   └── test_categories.py
+└── archive/
+    └── friendship-language-v1.md
 ```
 
-`src/scenarios.json` is the source of truth for the questionnaire. The Python modules implement question selection, score calculation, and result generation.
+`data/scenarios.json` is the source of truth for the questionnaire. The Python modules implement question selection and score calculation.
 
 ## Roadmap
 

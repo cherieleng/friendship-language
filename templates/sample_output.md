@@ -13,4 +13,4 @@
 
 You may feel most connected in friendships where you feel understood, supported, and remembered. Gestures and shared experiences can still be meaningful, even when they are not the primary source of closeness.
 
-*Friendship Compatibility Analysis v2 — Created by Cherie Leng (@Cold)*
+*Friendship Compatibility Analysis v2 — Created by Cold*
