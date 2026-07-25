@@ -4,6 +4,8 @@
 
 A friendship-preference questionnaire that explores the dynamics that make close friendships feel meaningful. It collects 1–5 ratings for 40 scenarios, calculates deterministic category scores, and presents a ranked, human-readable summary.
 
+Tested with multiple LLMs.
+
 ## Usage Options
 
 This skill supports two execution modes.
@@ -61,6 +63,18 @@ This questionnaire is an attempt to explore that idea through concrete scenarios
 - Normalized scoring to account for different category sizes
 - Measures friendship preferences rather than personality
 - Lower scores reflect relative priority, not absence of appreciation
+
+## Example Output
+
+### Questionnaire
+
+![Questionnaire example - ChatGPT](docs/images/questionnaire-example-gpt.png)
+
+![Questionnaire example - Claude](docs/images/questionnaire-example-calude.png)
+
+### Results
+
+![Results example](docs/images/results-example.png)
 
 ## Project structure
 
