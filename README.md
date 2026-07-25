@@ -70,7 +70,7 @@ This questionnaire is an attempt to explore that idea through concrete scenarios
 
 ![Questionnaire example - ChatGPT](docs/images/questionnaire-example-gpt.png)
 
-![Questionnaire example - Claude](docs/images/questionnaire-example-calude.png)
+![Questionnaire example - Claude](docs/images/questionnaire-example-claude.png)
 
 ### Results
 
