@@ -68,7 +68,11 @@ This questionnaire is an attempt to explore that idea through concrete scenarios
 
 ### Questionnaire
 
+ChatGPT:
+
 ![Questionnaire example - ChatGPT](docs/images/questionnaire-example-gpt.png)
+
+Claude:
 
 ![Questionnaire example - Claude](docs/images/questionnaire-example-claude.png)
 
