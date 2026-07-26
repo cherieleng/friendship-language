@@ -1,0 +1,7 @@
+<!-- Source key -> Display label -->
+Shared Joy → 🎉 Shared Joy
+Reliability / Showing Up → 🛟 Reliability / Showing Up
+Emotional Support → ❤️ Emotional Support
+Practical Support → 🔧 Practical Support
+Being Remembered → 🧠 Being Remembered
+Gestures → 🎁 Gestures

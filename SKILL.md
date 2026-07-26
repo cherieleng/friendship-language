@@ -1,38 +1,41 @@
 ---
 name: friendship-language
-description: Administer a friendship-preference questionnaire, calculate normalized category scores, and present a warm interpretation. Use when a user asks to explore which friendship dynamics feel meaningful to them or to run the Friendship Compatibility Analysis.
+description: Administer a friendship-preference questionnaire, calculate normalized category scores, and present a warm interpretation. Use when a user asks to explore which friendship dynamics feel meaningful to them or to run the Friendship Language Analysis.
 ---
 
-# Friendship Compatibility Analysis
+# Friendship Language Analysis
 
 Use this analysis only to describe a user's preferred friendship dynamics. Do not infer personality traits, abilities, morality, or diagnoses.
+
+## Language and Localization
+
+- Use `zh_CN` when the user is communicating in Simplified Chinese.
+- Use `en_US` when the user is communicating in English or when no supported locale is clear.
+- For any other language, use the `en_US` templates and respond naturally in the user's language where possible.
+- Use localized user-facing text from the template files.
+- Prefer natural localization over literal translation.
 
 ## Run the questionnaire
 
 1. Load `data/scenarios.json` with `json.load`.
 2. Create `Questionnaire(scenarios)` from `src/questionnaire.py`.
-3. Give a warm, two- to three-sentence introduction: explain the purpose, say there are no right or wrong answers, and avoid presenting it as a personality test. Refer to `templates/sample_opening.md` as the opening-message template.
-4. Until `questionnaire.is_complete` is true, call `next_question()` once, then display `Question {questionnaire.question_number} of {questionnaire.total_questions}` with its `text` and the rating scale below. Call `record_response(rating)` before selecting another scenario.
+3. Give a warm, two- to three-sentence introduction: 
+  - explain the purpose
+  - say there are no right or wrong answers
+  - avoid presenting it as a personality test. 
+  - Refer to `templates/{locale}/sample_opening.md` as the opening-message template.
+4. Until `questionnaire.is_complete` is true:
+  - call `next_question()` once
+  - render `templates/{locale}/question_format.md`, replacing its question-number, total-question, and scenario-text placeholders.
+  - Call `record_response(rating)` and collect user rating before selecting another scenario.
 5. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
 
-Display with every scenario:
+## Question Display Rules
 
-
-```text
-Question {questionnaire.question_number} of {questionnaire.total_questions}
-
-How meaningful would this be to you in a close friendship?
-
-{ Insert scenario text here }
-
-1 = Not meaningful
-2 = Slightly meaningful
-3 = Moderately meaningful
-4 = Very meaningful
-5 = Extremely meaningful
-```
-
-Do not reveal scenario categories, weights, internal tracking, or scoring calculations while asking questions.
+- `questionnaire.question_number` represents the current displayed question number.
+- `questionnaire.total_questions` represents the total number of questions in the questionnaire.
+- Do not use scenario IDs or dataset numbering as progress indicators.
+- Do not reveal scenario categories, weights, internal tracking, or scoring calculations while asking questions.
 
 ## Use the Python interfaces
 
@@ -42,10 +45,11 @@ Do not reveal scenario categories, weights, internal tracking, or scoring calcul
 
 ## Present results
 
-Use `templates/sample_output.md` as the result-layout reference.
+Use `templates/{locale}/sample_output.md` as the result-layout reference.
+Get all source key to category lable mappings from `templates/{locale}/categories.md`.
 
 Sort categories by descending score. For each category, show its label, a ten-slot bar, and its actual rounded percentage. Fill the bar with `round(percentage / 10)` `█` blocks and use `░` for the remainder.
 
 Then give a short, nuanced interpretation covering the top needs, how closeness may be experienced, and friendships likely to feel fulfilling. Frame lower scores as less central, not unimportant or disliked.
 
-End with: `Friendship Compatibility Analysis v2 — Created by Cold`.
+End with: `Friendship Language v2 — Created by Cold`.
