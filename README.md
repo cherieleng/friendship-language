@@ -93,8 +93,14 @@ friendship-language/
 │   └── calculator.py
 │   └── categories.py
 ├── templates/
-│   ├── sample_opening.md
-│   └── sample_output.md
+│   ├── en_US/
+│   │   ├── question_format.md
+│   │   ├── sample_opening.md
+│   │   └── sample_output.md
+│   └── zh_CN/
+│       ├── question_format.md
+│       ├── sample_opening.md
+│       └── sample_output.md
 ├── tests/
 │   ├── test_questionnaire.py
 │   └── test_calculator.py
