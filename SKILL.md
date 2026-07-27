@@ -28,7 +28,7 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 4. Until `questionnaire.is_complete` is true:
   - call `next_question()` once
   - render `templates/{locale}/question_format.md`, replacing its `questionnaire.question_number`, `questionnaire.total_questions`, and `scenario["text"]` placeholders.
-  - Call `record_response(rating)` and collect user rating before selecting another scenario.
+  - call `record_response(rating)` and collect user rating before selecting another scenario.
 5. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
 
 ## Question Display Rules
