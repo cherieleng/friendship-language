@@ -317,63 +317,63 @@ Each scenario is assigned 100% weight to its listed category.
 
 ### **🛟 Reliability / Showing Up**
 
-1. You call them late at night because you really need someone, and they answer.  
+6. You call them late at night because you really need someone, and they answer.  
    * Reliability / Showing Up: 100%  
-2. Your flight gets canceled, and without hesitation they offer to pick you up.  
+7. Your flight gets canceled, and without hesitation they offer to pick you up.  
    * Reliability / Showing Up: 100%  
-3. You need someone to accompany you to something you really don't want to face alone, like a medical appointment or a difficult meeting. Without hesitation, they say, "I'll go with you."  
+8. You need someone to accompany you to something you really don't want to face alone, like a medical appointment or a difficult meeting. Without hesitation, they say, "I'll go with you."  
    * Reliability / Showing Up: 100%  
-4. You are dealing with an unexpected problem in your life. Your friend may not be able to fix it, but they make it clear you don't have to handle it alone.  
+9. You are dealing with an unexpected problem in your life. Your friend may not be able to fix it, but they make it clear you don't have to handle it alone.  
    * Reliability / Showing Up: 100%  
-5. You receive difficult news and feel completely lost about what to do next. Your friend rearranges their plans to spend time with you and help you get through the first few days.  
+10. You receive difficult news and feel completely lost about what to do next. Your friend rearranges their plans to spend time with you and help you get through the first few days.  
    * Reliability / Showing Up: 100%
 
 ### **❤️ Emotional Support**
 
-1. After you finish talking, they summarize what they think you're feeling, and you realize they really understood you.  
+11. After you finish talking, they summarize what they think you're feeling, and you realize they really understood you.  
    * Emotional Support: 100%  
-2. You are going through a painful breakup after your partner cheated on you. Your friend stays with you for hours, listening as you vent and reassuring you that your feelings are completely valid.  
+12. You are going through a painful breakup after your partner cheated on you. Your friend stays with you for hours, listening as you vent and reassuring you that your feelings are completely valid.  
    * Emotional Support: 100%  
-3. You make a mistake at work or in a relationship and feel embarrassed telling someone about it. Your friend listens without making you feel stupid, and helps you see that one mistake does not define you.  
+13. You make a mistake at work or in a relationship and feel embarrassed telling someone about it. Your friend listens without making you feel stupid, and helps you see that one mistake does not define you.  
    * Emotional Support: 100%  
-4. You are doubting yourself before an important interview, presentation, or competition. Your friend reminds you of times you overcame challenges before and helps you believe in yourself again.  
+14. You are doubting yourself before an important interview, presentation, or competition. Your friend reminds you of times you overcame challenges before and helps you believe in yourself again.  
    * Emotional Support: 100%  
-5. You are having a terrible day but don't want to burden anyone. Your friend notices something is wrong, checks in gently, and gives you space to talk when you're ready.  
+15. You are having a terrible day but don't want to burden anyone. Your friend notices something is wrong, checks in gently, and gives you space to talk when you're ready.  
    * Emotional Support: 100%
 
 ### **🔧 Practical Support**
 
-1. You mention you're overwhelmed moving apartments, and they show up with boxes and help you pack.  
+16. You mention you're overwhelmed moving apartments, and they show up with boxes and help you pack.  
    * Practical Support: 100%  
-2. Your car won't start, and they're the first person to offer you a ride.  
+17. Your car won't start, and they're the first person to offer you a ride.  
    * Practical Support: 100%  
-3. Before your interview, they spend an hour doing a mock interview with you.  
+18. Before your interview, they spend an hour doing a mock interview with you.  
    * Practical Support: 100%  
-4. You have been putting off a complicated task for a long time. Your friend helps you figure out concrete next steps and gets you moving again.  
+19. You have been putting off a complicated task for a long time. Your friend helps you figure out concrete next steps and gets you moving again.  
    * Practical Support: 100%  
-5. You reach a stage in life where the right connections could make a big difference. A friend willingly introduces you to people in their network because they genuinely want to help you succeed.  
+20. You reach a stage in life where the right connections could make a big difference. A friend willingly introduces you to people in their network because they genuinely want to help you succeed.  
    * Practical Support: 100%
 
 ### **🧠 Being Remembered**
 
-1. A few days after you tell a friend you've been having a difficult week, they check in to ask whether you're feeling better.  
+21. A few days after you tell a friend you've been having a difficult week, they check in to ask whether you're feeling better.  
    * Being Remembered: 100%  
-2. You mention an important event coming up. On the day of the event, they text you to wish you luck.  
+22. You mention an important event coming up. On the day of the event, they text you to wish you luck.  
    * Being Remembered: 100%  
-3. When ordering food together, they remember your favorite dishes or dietary restrictions without needing to ask again.  
+23. When ordering food together, they remember your favorite dishes or dietary restrictions without needing to ask again.  
    * Being Remembered: 100%  
-4. You casually mention months ago that you were applying for something important to you. Later, your friend asks how it turned out, even though you never brought it up again.  
+24. You casually mention months ago that you were applying for something important to you. Later, your friend asks how it turned out, even though you never brought it up again.  
    * Being Remembered: 100%
 
 ### **🎁 Gestures**
 
-1. They always come back from vacation with souvenirs.  
+25. They always come back from vacation with souvenirs.  
    * Gestures: 100%  
-2. They randomly bring you flowers while you're having brunch together.  
+26. They randomly bring you flowers while you're having brunch together.  
    * Gestures: 100%  
-3. You are having an ordinary day together. Your friend unexpectedly gets you a small treat because they wanted to do something nice for you.  
+27. You are having an ordinary day together. Your friend unexpectedly gets you a small treat because they wanted to do something nice for you.  
    * Gestures: 100%  
-4. You have a busy week ahead. One day, they unexpectedly stop by with a dessert and a note saying, "Thought this might brighten your day."  
+28. You have a busy week ahead. One day, they unexpectedly stop by with a dessert and a note saying, "Thought this might brighten your day."  
    * Gestures: 100%
 
 ---
@@ -382,41 +382,41 @@ Each scenario is assigned 100% weight to its listed category.
 
 Each scenario distributes 100% weight across the listed categories.
 
-1. You disappear for a while because you are overwhelmed. When you finally respond, your friend isn't upset—they tell you they were worried and wanted to make sure you were okay.  
+29. You disappear for a while because you are overwhelmed. When you finally respond, your friend isn't upset—they tell you they were worried and wanted to make sure you were okay.  
    * Reliability / Showing Up: 80%  
    * Emotional Support: 20%  
-2. You suddenly face a stressful situation at work and feel overwhelmed. Your friend checks in, helps you think through your options, and stays supportive until things settle down.  
+30. You suddenly face a stressful situation at work and feel overwhelmed. Your friend checks in, helps you think through your options, and stays supportive until things settle down.  
    * Practical Support: 60%  
    * Reliability / Showing Up: 30%  
    * Emotional Support: 10%  
-3. On your birthday, a friend surprises you with a gift that you casually mentioned wanting months ago.  
+31. On your birthday, a friend surprises you with a gift that you casually mentioned wanting months ago.  
    * Being Remembered: 80%  
    * Gestures: 20%  
-4. While shopping, they see something that reminds them of you and buy it for you.  
+32. While shopping, they see something that reminds them of you and buy it for you.  
    * Gestures: 80%  
    * Being Remembered: 20%  
-5. You are moving to a new city where you don't know many people. A friend helps you feel less alone by introducing you to their friends, inviting you to activities, and making sure you have a community there.  
+33. You are moving to a new city where you don't know many people. A friend helps you feel less alone by introducing you to their friends, inviting you to activities, and making sure you have a community there.  
    * Practical Support: 75%  
    * Reliability / Showing Up: 25%  
-6. You accomplish something you worked hard for, but you feel like it was "not a big deal." Your friend is genuinely excited for you and reminds you how much effort you put in to get there.  
+34. You accomplish something you worked hard for, but you feel like it was "not a big deal." Your friend is genuinely excited for you and reminds you how much effort you put in to get there.  
    * Emotional Support: 75%  
    * Being Remembered: 15%  
    * Shared Joy: 10%  
-7. You mention in passing that you have been having trouble sleeping lately. A few days later, your friend sends you something they think might help, like a sleep tip, a product recommendation, or something they found useful.  
+35. You mention in passing that you have been having trouble sleeping lately. A few days later, your friend sends you something they think might help, like a sleep tip, a product recommendation, or something they found useful.  
    * Practical Support: 60%  
    * Being Remembered: 40%  
-8. You mention once that you have always wanted to try a certain restaurant, activity, or experience. A few weeks later, your friend plans it and invites you to go together.  
+36. You mention once that you have always wanted to try a certain restaurant, activity, or experience. A few weeks later, your friend plans it and invites you to go together.  
    * Being Remembered: 80%  
    * Shared Joy: 20%  
-9. You are trying to learn something new or prepare for an important goal. Your friend regularly checks in on your progress, shares resources, and encourages you when you get discouraged.  
+37. You are trying to learn something new or prepare for an important goal. Your friend regularly checks in on your progress, shares resources, and encourages you when you get discouraged.  
    * Practical Support: 80%  
    * Emotional Support: 20%  
-10. You mention that you have always wanted to visit a certain place. Your friend plans the trip with you and treats you to the hotel or part of the experience.  
+38. You mention that you have always wanted to visit a certain place. Your friend plans the trip with you and treats you to the hotel or part of the experience.  
     * Shared Joy: 60%  
     * Gestures: 40%  
-11. On your birthday, your friend secretly organizes a surprise party for you with people you care about, making the effort to create a special memory for you.  
+39. On your birthday, your friend secretly organizes a surprise party for you with people you care about, making the effort to create a special memory for you.  
     * Gestures: 70%  
     * Shared Joy: 30%  
-12. You are going through a difficult period and have several things piling up at once. Your friend checks in regularly, helps you handle whatever they can, and stays present until things become manageable.  
+40. You are going through a difficult period and have several things piling up at once. Your friend checks in regularly, helps you handle whatever they can, and stays present until things become manageable.  
     * Reliability / Showing Up: 70%  
     * Practical Support: 30%

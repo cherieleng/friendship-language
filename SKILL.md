@@ -17,16 +17,17 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 
 ## Run the questionnaire
 
-1. Load `data/scenarios.json` with `json.load`.
+1. Load `data/scenarios.json` with `json.load`. It contains 40 scenarios. The questionnaire asks one question per turn, so expect ~40 rating exchanges.
 2. Create `Questionnaire(scenarios)` from `src/questionnaire.py`.
 3. Give a warm, two- to three-sentence introduction: 
   - explain the purpose
   - say there are no right or wrong answers
   - avoid presenting it as a personality test. 
+  - briefly set expectations that this is a set of short scenarios rated one at a time.
   - Refer to `templates/{locale}/sample_opening.md` as the opening-message template.
 4. Until `questionnaire.is_complete` is true:
   - call `next_question()` once
-  - render `templates/{locale}/question_format.md`, replacing its question-number, total-question, and scenario-text placeholders.
+  - render `templates/{locale}/question_format.md`, replacing its `questionnaire.question_number`, `questionnaire.total_questions`, and `scenario["text"]` placeholders.
   - Call `record_response(rating)` and collect user rating before selecting another scenario.
 5. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
 
@@ -41,12 +42,12 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 
 - Scenarios are JSON dictionaries with `text` and `weights` keys. Weight keys are category-name strings and weights are decimals that sum to `1.0`.
 - `Questionnaire` owns selection state, progress, and responses. Do not manually maintain an `asked` set.
-- `calculate_scores` accepts the selected scenario dictionaries and their 1–5 responses. It returns `{Category: percentage}`; use `category.value` for display labels.
+- `calculate_scores` accepts the selected scenario dictionaries and their 1–5 responses. It returns `{Category: percentage}`; use `category.value` as the source key.
 
 ## Present results
 
 Use `templates/{locale}/sample_output.md` as the result-layout reference.
-Get all source key to category lable mappings from `templates/{locale}/categories.md`.
+Get all source key to category label mappings from `templates/{locale}/categories.md`.
 
 Sort categories by descending score. For each category, show its label, a ten-slot bar, and its actual rounded percentage. Fill the bar with `round(percentage / 10)` `█` blocks and use `░` for the remainder.
 
