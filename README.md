@@ -15,9 +15,10 @@ This skill supports two execution modes.
 Requires:
 - An AI agent environment that supports loading skills
 - Access to the repository files
+- Options to run the questionnaire in `full`(40 scenarios, default) or `short`(25 scenarios) variants.
 
 The skill uses:
-- `data/scenarios.json` as the questionnaire source
+- `data/scenarios*.json` as the questionnaire source
 - `src/questionnaire.py` for question selection and progress tracking
 - `src/calculator.py` for deterministic scoring
 
@@ -121,7 +122,7 @@ friendship-language/
 - [x] Python questionnaire engine
 - [x] JSON scenario dataset
 - [x] Unit tests
-- [ ] LLM skill integration
+- [x] LLM skill integration
 - [ ] Web UI (maybe)
 
 ## Credits
@@ -132,6 +133,4 @@ This includes the questionnaire concept, scenario design, weighting methodology,
 
 ___
 
-© 2026 Cherie Leng (Cold). All rights reserved.
-
-The questionnaire design, scenarios, and scoring methodology are original work.
+© 2026 Cherie Leng. All rights reserved.
