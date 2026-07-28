@@ -86,6 +86,7 @@ Claude:
 friendship-language/
 ├── README.md
 ├── SKILL.md
+├── AGENTS.md
 ├── data/
 │   └── scenarios.json
 │   └── scenarios_short.json
