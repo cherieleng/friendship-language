@@ -1,0 +1,129 @@
+[
+  {
+    "text": "You and a friend both love the same artist. You end up screaming every lyric together at a concert, and it's one of those memories that still makes you smile.",
+    "weights": { "Shared Joy": 1.0 }
+  },
+  {
+    "text": "They are always excited to try new restaurants or places you’re interested in exploring together.",
+    "weights": { "Shared Joy": 1.0 }
+  },
+  {
+    "text": "You and your friend have both been through a lot recently. When you finally have time to meet up, you spend the whole evening laughing, sharing stories, and enjoying each other's company, and it reminds you why you value the friendship.",
+    "weights": { "Shared Joy": 1.0 }
+  },
+  {
+    "text": "You call them late at night because you really need someone, and they answer.",
+    "weights": { "Reliability / Showing Up": 1.0 }
+  },
+  {
+    "text": "You need someone to accompany you to something you really don't want to face alone, like a medical appointment or a difficult meeting. Without hesitation, they say, \"I'll go with you.\"",
+    "weights": { "Reliability / Showing Up": 1.0 }
+  },
+  {
+    "text": "You receive difficult news and feel completely lost about what to do next. Your friend rearranges their plans to spend time with you and help you get through the first few days.",
+    "weights": { "Reliability / Showing Up": 1.0 }
+  },
+  {
+    "text": "After you finish talking, they summarize what they think you're feeling, and you realize they really understood you.",
+    "weights": { "Emotional Support": 1.0 }
+  },
+  {
+    "text": "You are going through a painful breakup after your partner cheated on you. Your friend stays with you for hours, listening as you vent and reassuring you that your feelings are completely valid.",
+    "weights": { "Emotional Support": 1.0 }
+  },
+  {
+    "text": "You are having a terrible day but don't want to burden anyone. Your friend notices something is wrong, checks in gently, and gives you space to talk when you're ready.",
+    "weights": { "Emotional Support": 1.0 }
+  },
+  {
+    "text": "You mention you're overwhelmed moving apartments, and they show up with boxes and help you pack.",
+    "weights": { "Practical Support": 1.0 }
+  },
+  {
+    "text": "You have been putting off a complicated task for a long time. Your friend helps you figure out concrete next steps and gets you moving again.",
+    "weights": { "Practical Support": 1.0 }
+  },
+  {
+    "text": "You reach a stage in life where the right connections could make a big difference. A friend willingly introduces you to people in their network because they genuinely want to help you succeed.",
+    "weights": { "Practical Support": 1.0 }
+  },
+  {
+    "text": "You mention an important event coming up. On the day of the event, they text you to wish you luck.",
+    "weights": { "Being Remembered": 1.0 }
+  },
+  {
+    "text": "When ordering food together, they remember your favorite dishes or dietary restrictions without needing to ask again.",
+    "weights": { "Being Remembered": 1.0 }
+  },
+  {
+    "text": "They randomly bring you flowers while you're having brunch together.",
+    "weights": { "Gestures": 1.0 }
+  },
+  {
+    "text": "You have a busy week ahead. One day, they unexpectedly stop by with a dessert and a note saying, \"Thought this might brighten your day.\"",
+    "weights": { "Gestures": 1.0 }
+  },
+  {
+    "text": "You disappear for a while because you are overwhelmed. When you finally respond, your friend isn't upset—they tell you they were worried and wanted to make sure you were okay.",
+    "weights": {
+      "Reliability / Showing Up": 0.8,
+      "Emotional Support": 0.2
+    }
+  },
+  {
+    "text": "While shopping, they see something that reminds them of you and buy it for you.",
+    "weights": {
+      "Gestures": 0.8,
+      "Being Remembered": 0.2
+    }
+  },
+  {
+    "text": "You mention in passing that you have been having trouble sleeping lately. A few days later, your friend sends you something they think might help, like a sleep tip, a product recommendation, or something they found useful.",
+    "weights": {
+      "Practical Support": 0.6,
+      "Being Remembered": 0.4
+    }
+  },
+  {
+    "text": "You mention once that you have always wanted to try a certain restaurant, activity, or experience. A few weeks later, your friend plans it and invites you to go together.",
+    "weights": {
+      "Being Remembered": 0.8,
+      "Shared Joy": 0.2
+    }
+  },
+  {
+    "text": "You mention that you have always wanted to visit a certain place. Your friend plans the trip with you and treats you to the hotel or part of the experience.",
+    "weights": {
+      "Shared Joy": 0.6,
+      "Gestures": 0.4
+    }
+  },
+  {
+    "text": "On your birthday, your friend secretly organizes a surprise party for you with people you care about, making the effort to create a special memory for you.",
+    "weights": {
+      "Gestures": 0.7,
+      "Shared Joy": 0.3
+    }
+  },
+  {
+    "text": "You are going through a difficult period and have several things piling up at once. Your friend checks in regularly, helps you handle whatever they can, and stays present until things become manageable.",
+    "weights": {
+      "Reliability / Showing Up": 0.7,
+      "Practical Support": 0.3
+    }
+  },
+  {
+    "text": "You have been having a really difficult day. Your friend surprises you with a small treat or dessert to let you know they're thinking of you and hoping it makes your day a little better.",
+    "weights": {
+      "Emotional Support": 0.8,
+      "Gestures": 0.2
+    }
+  },
+  {
+    "text": "You once mentioned that a certain anniversary is difficult for you. When the day arrives, your friend checks in to see how you're doing and lets you know they're there if you want to talk.",
+    "weights": {
+      "Being Remembered": 0.75,
+      "Emotional Support": 0.25
+    }
+  }
+]

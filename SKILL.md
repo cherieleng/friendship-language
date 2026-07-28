@@ -1,6 +1,13 @@
 ---
 name: friendship-language
 description: Administer a friendship-preference questionnaire, calculate normalized category scores, and present a warm interpretation. Use when a user asks to explore which friendship dynamics feel meaningful to them or to run the Friendship Language Analysis.
+metadata:
+  version: 2.1.0
+  author: Cherie Leng (Cold)
+  tags: [questionnaire, friendship, self-reflection, scoring, localized]
+allowed-tools:
+  - Read
+  - Bash(python3:*)
 ---
 
 # Friendship Language Analysis
@@ -17,19 +24,20 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 
 ## Run the questionnaire
 
-1. Load `data/scenarios.json` with `json.load`. It contains 40 scenarios. The questionnaire asks one question per turn, so expect ~40 rating exchanges.
-2. Create `Questionnaire(scenarios)` from `src/questionnaire.py`.
-3. Give a warm, two- to three-sentence introduction: 
+1. Decide the variant: ask whether the user would like the full (40 questions) or a shorter (25 questions) version; default to `"full"` if they have no preference.
+2. Load the scenarios with `load_scenarios(variant)` from `src/scenarios.py`.
+3. Create `Questionnaire(scenarios)` from `src/questionnaire.py`.
+4. Give a warm, two- to three-sentence introduction: 
   - explain the purpose
   - say there are no right or wrong answers
   - avoid presenting it as a personality test. 
   - briefly set expectations that this is a set of short scenarios rated one at a time.
   - Refer to `templates/{locale}/sample_opening.md` as the opening-message template.
-4. Until `questionnaire.is_complete` is true:
+5. Until `questionnaire.is_complete` is true:
   - call `next_question()` once
   - render `templates/{locale}/question_format.md`, replacing its `questionnaire.question_number`, `questionnaire.total_questions`, and `scenario["text"]` placeholders.
   - call `record_response(rating)` and collect user rating before selecting another scenario.
-5. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
+6. Call `calculate_scores(questionnaire.selected_scenarios, questionnaire.responses)` from `src/calculator.py` after the final response.
 
 ## Question Display Rules
 
