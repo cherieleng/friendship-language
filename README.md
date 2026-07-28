@@ -133,6 +133,4 @@ This includes the questionnaire concept, scenario design, weighting methodology,
 
 ___
 
-© 2026 Cherie Leng (Cold). All rights reserved.
-
-The questionnaire design, scenarios, and scoring methodology are original work.
+© 2026 Cherie Leng. All rights reserved.
