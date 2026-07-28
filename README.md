@@ -88,10 +88,12 @@ friendship-language/
 ├── SKILL.md
 ├── data/
 │   └── scenarios.json
+│   └── scenarios_short.json
 ├── src/
 │   ├── questionnaire.py
 │   └── calculator.py
 │   └── categories.py
+│   └── scenarios.py
 ├── templates/
 │   ├── en_US/
 │   │   ├── question_format.md
@@ -105,11 +107,12 @@ friendship-language/
 │   ├── test_questionnaire.py
 │   └── test_calculator.py
 │   └── test_categories.py
+│   └── test_scenarios.py
 └── archive/
     └── friendship-language-v1.md
 ```
 
-`data/scenarios.json` is the source of truth for the questionnaire. The Python modules implement question selection and score calculation.
+`data/scenarios*.json` is the source of truth for the questionnaire. The Python modules implement question selection and score calculation.
 
 ## Roadmap
 
