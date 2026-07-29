@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from src.questionnaire import Questionnaire, pick_question
+from src.questionnaire import Questionnaire, pick_question, select_all
 
 
 class PickQuestionTests(unittest.TestCase):
@@ -48,6 +48,17 @@ class PickQuestionTests(unittest.TestCase):
 
         with self.assertRaises(RuntimeError):
             questionnaire.next_question()
+
+class SelectAllTests(unittest.TestCase):
+    def test_returns_every_index_exactly_once(self):
+        order = select_all(["a", "b", "c"])
+        self.assertEqual(sorted(order), [0, 1, 2])
+
+    def test_length_matches_the_scenario_count(self):
+        self.assertEqual(len(select_all(list(range(25)))), 25)
+
+    def test_empty_input_yields_empty_order(self):
+        self.assertEqual(select_all([]), [])
 
 
 if __name__ == "__main__":

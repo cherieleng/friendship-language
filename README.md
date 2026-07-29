@@ -96,20 +96,24 @@ friendship-language/
 │   └── calculator.py
 │   └── categories.py
 │   └── scenarios.py
+│   └── cli.py
 ├── templates/
 │   ├── en_US/
 │   │   ├── question_format.md
 │   │   ├── sample_opening.md
 │   │   └── sample_output.md
+│   │   └── categories.json
 │   └── zh_CN/
 │       ├── question_format.md
 │       ├── sample_opening.md
 │       └── sample_output.md
+│       └── categories.json
 ├── tests/
 │   ├── test_questionnaire.py
 │   └── test_calculator.py
 │   └── test_categories.py
 │   └── test_scenarios.py
+│   └── test_cli.py
 └── archive/
     └── friendship-language-v1.md
 ```
