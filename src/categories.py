@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class Category(Enum):
     SHARED_JOY = "Shared Joy"
     RELIABILITY = "Reliability / Showing Up"

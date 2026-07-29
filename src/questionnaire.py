@@ -68,7 +68,13 @@ class Questionnaire:
         self._responses.append(rating)
         self._current_index = None
 
-
+def select_all(scenarios: Sequence[dict[str, Any]]) -> List[int]:
+    """Return every scenario index in random order in a single call. 
+    
+    Batch equivalent of calling `next_question` until the questionnaire is complete, 
+    for callers that must fix the whole order in single process"""
+    return random.sample(range(len(scenarios)), len(scenarios))
+    
 def pick_question(scenarios: Sequence[dict[str, Any]], asked: set[int]) -> dict[str, Any]:
     """Select one unused scenario for callers managing their own state."""
     remaining_indices = [
