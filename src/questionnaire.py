@@ -1,6 +1,7 @@
 import random
+from collections.abc import Sequence
 from dataclasses import dataclass, field
-from typing import Any, Sequence
+from typing import Any
 
 
 @dataclass
@@ -68,7 +69,7 @@ class Questionnaire:
         self._responses.append(rating)
         self._current_index = None
 
-def select_all(scenarios: Sequence[dict[str, Any]]) -> List[int]:
+def select_all(scenarios: Sequence[dict[str, Any]]) -> list[int]:
     """Return every scenario index in random order in a single call. 
     
     Batch equivalent of calling `next_question` until the questionnaire is complete, 

@@ -55,7 +55,7 @@ Use this analysis only to describe a user's preferred friendship dynamics. Do no
 ## Present results
 
 Use `templates/{locale}/sample_output.md` as the result-layout reference.
-Get all source key to category label mappings from `templates/{locale}/categories.md`.
+Get all source key to category label mappings from `templates/{locale}/categories.json`.
 
 Sort categories by descending score. For each category, show its label, a ten-slot bar, and its actual rounded percentage. Fill the bar with `round(percentage / 10)` `█` blocks and use `░` for the remainder.
 
